@@ -1,0 +1,28 @@
+/*width*/
+::-webkit-scrollbar {
+width:0.6em;
+}
+/*track*/
+::-webkit-scrollbar-track {
+background:rgba(255, 255, 255, 0);
+}
+/*thumb*/
+::-webkit-scrollbar-thumb {
+background:rgb(133, 133, 133);
+border-radius:5px;
+}
+/*thumb hover*/
+::-webkit-scrollbar-thumb:hover {
+background:rgba(64, 64, 64, 1);
+}
+/*thumb pressed*/
+::-webkit-scrollbar-thumb:active {
+background:rgba(9, 9, 9, 1);
+}
+/*video controls*/
+video::-webkit-media-controls {
+    display: none !important;
+  }
+  video::-webkit-media-controls-overlay-enclosure {
+    display: none !important;
+  }
