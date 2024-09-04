@@ -26,3 +26,17 @@ video::-webkit-media-controls {
   video::-webkit-media-controls-overlay-enclosure {
     display: none !important;
   }
+[text-split] {
+    opacity: 0;
+}
+
+html.w-editor [text-split] {
+    opacity: 1;
+}
+
+.word {
+    overflow: hidden;
+    padding-bottom: 0.1em;
+    margin-bottom: -0.1em;
+    transform-origin: bottom;
+}
